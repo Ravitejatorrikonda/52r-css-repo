@@ -1,0 +1,40 @@
+/* .container { */
+/* border: 2px solid red; */
+/* height: 300px; */
+/* width: 300px;
+    position: relative;
+} */
+/* img{
+    width: 100%;
+}
+h3{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+} */
+
+
+.container {
+    height: 700px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    font-size: 40px;
+    color: white;
+}
+span{
+    padding: 30px;
+    background-color: #000000;
+}
