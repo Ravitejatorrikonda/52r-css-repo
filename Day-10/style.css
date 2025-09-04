@@ -1,0 +1,56 @@
+body {
+    height: 600px;
+    display: flex;
+    /* justify-content: center;
+align-items: center; */
+
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+    transition: all 3s ease;
+    /* animation-name: a;
+    animation-duration: 3s; */
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate-reverse; */
+    animation: a 3s ease;
+
+}
+
+/* @keyframes x {
+    from{
+  background-color: yellow;
+  transform: translate(0px) scaleY(2);
+    }
+    to{
+background-color: green;
+transform: translate(100px) rotate(80deg);
+    }
+} */
+
+@keyframes a {
+    0% {
+        transform: translate(0px);
+
+    }
+
+    25% {
+        transform: translate(500px) rotate(360deg);
+        background-color: aquamarine;
+    }
+
+    50% {
+        transform: translate(500px, 500px) scaleY(2);
+    }
+
+    75% {
+        transform: translate(0px, 500px) skew(60deg);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+
+}
