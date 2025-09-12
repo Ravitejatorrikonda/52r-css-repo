@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    border: 2px solid red;
+    /* height: 10vh; */
+    display: flex;
+    justify-content: space-around;
+    background-color: deeppink;
+}
+/* .header>*{
+    background-color: #203040;
+    color: white;
+    padding: 10px;
+} */
+.icon{
+    display: none;
+    font-size: 3rem;
+}
+.check{
+    display: none;
+}
+
+@media screen and (width <= 600px) {
+    .icon{
+        display: block;
+    }
+    .header{
+        display: none;
+    }
+    #menu:checked~.header{
+        display: block;
+        width: fit-content;
+        padding: 20px;
+        text-decoration: underline;
+        font-size: 3rem;
+        color: wheat;
+    }
+    .header:hover{
+        color: brown;
+        
+    }
+}
